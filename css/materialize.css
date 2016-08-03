@@ -7,6 +7,10 @@
   background-color: #e51c23 !important;
 }
 
+.ubrand_color{
+  background-color: #28AFE5 !important;
+}
+
 .materialize-red-text {
   color: #e51c23 !important;
 }
@@ -2857,7 +2861,7 @@ video.responsive-video {
 .parallax-container {
   position: relative;
   overflow: hidden;
-  height: 200px;
+  height: 300px;
 }
 
 .parallax {
@@ -2972,7 +2976,11 @@ ul.staggered-list li {
   }
 }
 
-
+.espacio{
+  background-color: transparent;
+  position: relative;
+  height: 70px;
+}
 footer.page-footer {
   position: fixed;
   bottom: 0;
@@ -4091,7 +4099,7 @@ input[type=range] + .thumb {
 
 nav {
   color: #fff;
-  background-color: #ee6e73;
+  background-color: #EEE;
   width: 100%;
   height: 150px;
   line-height: 150px;
@@ -4597,11 +4605,11 @@ small {
   display: block;
   border-radius: 2px 2px 0 0;
   position: relative;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  width: 100%;
+  left: 5%;
+  right: 5%;
+  top: 5%;
+  bottom: 5%;
+  width: 90%;
 }
 
 .card .card-image .card-title {
@@ -4761,7 +4769,7 @@ small {
   overflow-x: auto;
   overflow-y: hidden;
   height: 90px;
-  background-color: #abc;
+  background-color: #EEEEEE;
   margin: 0 auto;
   width: 100%;
   white-space: nowrap;
@@ -5116,7 +5124,6 @@ button.btn-floating {
   user-select: none;
   -webkit-tap-highlight-color: transparent;
   vertical-align: middle;
-  z-index: 1;
   will-change: opacity, transform;
   transition: all .3s ease-out;
 }

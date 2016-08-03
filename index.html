@@ -1,156 +1,292 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <title>UBRAND</title>
-
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+	<title>UBRAND</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<link href="css/animacion.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
 
-  <nav class="light-blue lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo center"><img height="100%" src="img/logo.png"></a>
-      <!--
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
+<nav role="navigation">
+	<div class="nav-wrapper container">
+		<a id="logo-container" href="#" class="brand-logo center">
+			<img height="140px" src="img/ubrand_logo.png">
+		</a>
+		<!--
+		<ul class="right hide-on-med-and-down">
+		<li><a href="#">Navbar Link</a></li>
+		</ul>
 
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-      -->
-    </div>
-  </nav>
-  <div class="section no-pad-bot" id="index-banner">
-    <div class="container">
-      <div class="row center">
-        <div class="col s12">
-          <ul class="tabs">
-            <li class="tab col s3"><a class="active" href="#test1" onclick="Materialize.fadeInImage('#test1')"><img src="img/logo.png" height="100%"></a></li>
-            <li class="tab col s3"><a href="#test2">Test 2</a></li>
-            <li class="tab col s3"><a href="#test3">Disabled Tab</a></li>
-            <li class="tab col s3"><a href="#test4">Test 4</a></li>
-          </ul>
-        </div>
-        <br><br><br>
-        <div id="test1" class="col s12">
+		<ul id="nav-mobile" class="side-nav">
+		<li><a href="#">Navbar Link</a></li>
+		</ul>
+		<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+		-->
+	</div>
+</nav>
+
+<div class="parallax-container">
+	<div class="parallax"><img src="img/equipo.jpg" width="100%"></div>
+</div>
+
+<div class="section white">
+	<div class="row  center">
+		<div class="col s12">
+			<ul class="tabs">
+
+				<li class="tab col s3"><a class="active tooltipped" data-position="bottom" data-delay="40" data-tooltip="Inicio" href="#Inicio" onclick="Materialize.fadeInImage('#Inicio')"><img src="img/inicio.png" height="100%"></a></li>
+				<li class="tab col s3"><a class="tooltipped" data-position="bottom" data-delay="40" data-tooltip="Quienes Somos" href="#Quienes_Somos" onclick="Materialize.fadeInImage('#Quienes_Somos')"><img src="img/quienes_somos.png" height="100%"></a></li>
+				<li class="tab col s3"><a class="tooltipped" data-position="bottom" data-delay="40" data-tooltip="Que Hacemos" href="#Que_Hacemos" onclick="Materialize.fadeInImage('#Que_Hacemos')"><img src="img/que_hacemos.png" height="100%"></a></li>
+				<li class="tab col s3"><a class="tooltipped" data-position="bottom" data-delay="40" data-tooltip="Portafolio" href="#Portafolio" onclick="Materialize.fadeInImage('#Portafolio')"><img src="img/portafolio.png" height="100%"></a></li>
+				<li class="tab col s3"><a class="tooltipped" data-position="bottom" data-delay="40" data-tooltip="Contactenos" href="#Contactenos" onclick="Materialize.fadeInImage('#Contactenos')"><img src="img/contactenos.png" height="100%"></a></li>
+			</ul>
+		</div>
+
+		<div id="Inicio" class="col s12">
+			<h3>UBRAND</h3>
+			<div class="slider">
+				<ul class="slides">
+					<li>
+						<img src="http://lorempixel.com/580/250/nature/1"> <!-- random image -->
+						<div class="caption center-align">
+							<h3>This is our big Tagline!</h3>
+							<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+						</div>
+					</li>
+					<li>
+						<img src="http://lorempixel.com/580/250/nature/2"> <!-- random image -->
+						<div class="caption left-align">
+							<h3>Left Aligned Caption</h3>
+							<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+						</div>
+					</li>
+					<li>
+						<img src="http://lorempixel.com/580/250/nature/3"> <!-- random image -->
+						<div class="caption right-align">
+							<h3>Right Aligned Caption</h3>
+							<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+						</div>
+					</li>
+					<li>
+						<img src="http://lorempixel.com/580/250/nature/4"> <!-- random image -->
+						<div class="caption center-align">
+							<h3>This is our big Tagline!</h3>
+							<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- QUIENES SOMOS-->
+		<div id="Quienes_Somos" class="col s12">
+
+			<div class="container">
+				<!-- NOSOTROS  -->
+				<div class="row">
+					<h3>EQUIPO DE TRABAJO</h3>
+					<!-- Michael -->
+					<div class="col s12 m3">
+						<div class="card">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator" src="img/michael_1.png" onmouseover="this.src='img/michael_2.png';" onmouseout="this.src='img/michael_1.png';"/>
+							</div>
+							<div class="card-content">
+								<span class="card-title activator grey-text text-darken-4">Michael Sanchez</span>
+								<p><a class="waves-effect ubrand_color btn modal-trigger" href="#Michael">Perfil Completo</a></p>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Michael Sanchez<i class="material-icons right">close</i></span>
+								<p>Esta es una pequeña descripcion</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Oscar -->
+					<div class="col s12 m3">
+						<div class="card">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator" src="img/oscar_1.png" onmouseover="this.src='img/oscar_2.png';" onmouseout="this.src='img/oscar_1.png';"/>
+							</div>
+							<div class="card-content">
+								<span class="card-title activator grey-text text-darken-4">Oscar Robayo</span>
+								<p><a class="waves-effect ubrand_color btn modal-trigger" href="#Oscar">Perfil Completo</a></p>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Oscar Robayo<i class="material-icons right">close</i></span>
+								<p>Esta es una pequeña descripcion</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Edison -->
+					<div class="col s12 m3">
+						<div class="card">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator" src="img/Edison_1.png" onmouseover="this.src='img/Edison_2.png';" onmouseout="this.src='img/Edison_1.png';"/>
+							</div>
+							<div class="card-content">
+								<span class="card-title activator grey-text text-darken-4">Edison Jimenez</span>
+								<p><a class="waves-effect ubrand_color btn modal-trigger" href="#Edison">Perfil Completo</a></p>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Edison Jimenez<i class="material-icons right">close</i></span>
+								<p>Esta es una pequeña descripcion</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Jhonatan -->
+					<div class="col s12 m3">
+						<div class="card">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator" src="img/Jhonatan_1.png"  onmouseover="this.src='img/Jhonatan_2.png';" onmouseout="this.src='img/Jhonatan_1.png';"/>
+
+							</div>
+							<div class="card-content">
+								<span class="card-title activator grey-text text-darken-4">Jhonatan Malaver</span>
+								<p><a class="waves-effect ubrand_color btn modal-trigger" href="#Jhonatan">Perfil Completo</a></p>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Jhonatan Malaver<i class="material-icons right">close</i></span>
+								<p>Esta es una pequeña descripcion</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<!-- QUE HACEMOS -->
+		<div id="Que_Hacemos" class="col s12">
+
+			<div class="container">
+				<div class="row">
+					<h4>¿QUE HACEMOS?</h4>
+					<div class="col s12 m3">
+						<br>
+					</div>
+					<div class="col s12 m6">
+						<p class="light">Nuestro propósito es ayudar a las empresas a potenciar y construir marcas valiosas; desde el planteamiento estratégico hasta su implementación en los diferentes elementos de comunicación. Esto les permitirá establecer una diferencia decisiva frente a su competencia y a tener un vínculo emocional duradero con sus clientes.</p>
+					</div>
+					<div class="col s12 m3">
+						<br>
+					</div>
+				</div>
+				<div class="row">
+					<h4>¿COMO LO HACEMOS?</h4>
+					<div class="col s12 m3">
+						<div class="icon-block">
+							<h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
+							<h5 class="center">INVESTIGACIÓN</h5>
+							<p class="light">El diagnóstico situacional y la investigación son los pasos iniciales de cada proyecto. A través de cuestionarios, entrevistas, grupos focales, encuestas, insights, estudios de la competencia y del sector; conocemos al cliente, el producto y a sus consumidores.</p>
+						</div>
+					</div>
+
+					<div class="col s12 m3">
+						<div class="icon-block">
+							<h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
+							<h5 class="center">ESTRATEGIA</h5>						
+							<p class="light">En base a estudios, clarificamos la identidad de marca, "El ADN de la empresa", y la situación del mercado en la que esta se desenvuelve. Definimos luego la propuesta de valor y especificamos la arquitectura, historia y valores de marca.</p>
+						</div>
+					</div>
+
+					<div class="col s12 m3">
+						<div class="icon-block">
+							<h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
+							<h5 class="center">IDENTIDAD DE MARCA</h5>
+							<p class="light">En base a la estrategia planteada, construimos la identidad visual de la marca; la cual incluye el logotipo, estilo gráfico, colores corporativos, tipografía, señalética, estilo fotográfico, entre otros elementos comunicativos.</p>
+						</div>
+					</div>
+
+					<div class="col s12 m3">
+						<div class="icon-block">
+							<h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
+							<h5 class="center">IMPLEMENTACIÓN</h5>
+							<p class="light">Finalmente desarrollamos la gestión, implementación y lanzamiento de la marca. Diseñamos los lineamientos acorde a la estrategia de posicionamiento. Además, capacitamos al personal para que se alinee a la estrategia de marca.</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div id="Portafolio" class="col s12">
+			<h3>Portafolio Ubrand</h3>
+		</div>
+
+		<div id="Contactenos" class="col s12">
+			<h3>Contactenos</h3>
+			<a class="btn" onclick="Materialize.toast('I am a toast', 4000)">Toast!</a>
+		</div>
+	</div>
+</div>
+</div>
+
+<div class="parallax-container">
+	<div class="parallax"><img src="img/ubrand_footer.png"></div>
+</div>
+<div class="espacio"></div>
+<footer class="page-footer orange">
+	<div class="footer-copyright">
+		<div class="container">
+			Copyrigth &copy; <b>UBrand</b>
+		</div>
+	</div>
+</footer>
 
 
-          <!--   INICIO   -->
-          <div class="row">
-            <div class="col s12 m4">
-              <div class="icon-block">
-                <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
-                <h5 class="center">Speeds up development</h5>
+<!-- PERFILES EN MODAL -->
 
-                <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-              </div>
-            </div>
-            <div class="col s12 m4">
-              <div class="icon-block">
-                <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
-                <h5 class="center">User Experience Focused</h5>
+<div id="Michael" class="modal">
+	<div class="modal-content">
+		<h4>Perfil</h4>
+		<p>Michael Sanchez</p>
+	</div>
+	<div class="modal-footer">
+		<a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a>
+	</div>
+</div>
 
-                <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-              </div>
-            </div>
-            <div class="col s12 m4">
-              <div class="icon-block">
-                <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
-                <h5 class="center">Easy to work with</h5>
-
-                <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-              </div>
-            </div>
-          </div>
-          <a class="btn" onclick="Materialize.toast('I am a toast', 4000)">Toast!</a>
-
-          <img src="img/logo.png" width="150px" onmouseover="this.src='img/logo_2.png';" onmouseout="this.src='img/logo.png';"/>
+<div id="Oscar" class="modal">
+	<div class="modal-content">
+		<h4>Perfil</h4>
+		<p>Oscar Robayo</p>
+	</div>
+	<div class="modal-footer">
+		<a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a>
+	</div>
+</div>
 
 
-        </div>
-        <div id="test2" class="col s12">
-        <!-- NOSOTROS  -->
-          <div class="row">
-            <div class="col s12 m4">
-              <div class="icon-block">
-                <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
-                <h5 class="center">Speeds up development</h5>
-
-                <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-              </div>
-            </div>
-            <div class="col s12 m4">
-              <div class="icon-block">
-                <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
-                <h5 class="center">User Experience Focused</h5>
-
-                <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-              </div>
-            </div>
-            <div class="col s12 m4">
-              <div class="icon-block">
-                <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
-                <h5 class="center">Easy to work with</h5>
-
-                <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-              </div>
-            </div>
-          </div>
-          <a class="btn" onclick="Materialize.toast('Parte 2', 4000)">Toast!</a>
-
-        </div>
-        <div id="test3" class="col s12">
+<div id="Edison" class="modal">
+	<div class="modal-content">
+		<h4>Perfil</h4>
+		<p>Edison Jimenez</p>
+	</div>
+	<div class="modal-footer">
+		<a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a>
+	</div>
+</div>
 
 
+<div id="Jhonatan" class="modal">
+	<div class="modal-content">
+		<h4>Perfil</h4>
+		<p>Jhonatan Malaver</p>
+	</div>
+	<div class="modal-footer">
+		<a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a>
+	</div>
+</div>
 
-          <a class="btn" onclick="Materialize.toast('Parte 2', 4000)">Toast!</a>
-
-        </div>
-        <div id="test4" class="col s12">
-          
-          <!-- CONTACTO  -->
-          <div class="carousel">
-            <a class="carousel-item" href="#one!"><img src="img/img3.png"></a>
-            <a class="carousel-item" href="#two!"><img src="img/img2.png"></a>
-            <a class="carousel-item materialboxed" width="650" href="#three!"><img src="img/img1.png"></a>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="parallax-container">
-    <div class="parallax"><img src="img/img1.png"></div>
-  </div>
-  <div class="section white">
-    <div class="row container">
-      <h2 class="header">Parallax</h2>
-      <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
-    </div>
-  </div>
-  <div class="parallax-container">
-    <div class="parallax"><img src="img/img2.png"></div>
-  </div>
-
-  <footer class="page-footer orange">
-    <div class="footer-copyright">
-      <div class="container">
-      Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-      </div>
-    </div>
-  </footer>
-
-
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
-  </body>
+<!--  Scripts-->
+<script src="js/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/init.js"></script>
+</body>
 </html>
